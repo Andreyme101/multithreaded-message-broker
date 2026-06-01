@@ -1,0 +1,56 @@
+# Build results
+Debug/
+Release/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.db
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+ipch/
+
+# Compiled files
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.so
+*.pch
+*.idb
+
+# NuGet
+packages/
+*.nupkg
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Logs
+*.log
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Большие результаты экспериментов
+results/**/*.csv
+plots_w_sweep_5000/
+all_results_*.csv
+*_aggregated.csv
